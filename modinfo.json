@@ -1,12 +1,12 @@
 {
   "author": "wondible",
-  "build": "73939",
-  "category": ["in-game", "ui"],
+  "build": "74525",
+  "category": ["ui", "ai"],
   "context": "client",
-  "date": "2014/10/19",
+  "date": "2014/11/02",
   "description": "Custom personality types for skirmish.",
   "display_name": "Ai Personalities",
-  "forum": null,
+  "forum": "https://forums.uberent.com/threads/rel-ai-personalities.65750/",
   "identifier": "com.wondible.pa.ai_personalities",
   "priority": 100,
   "scenes": {
@@ -15,6 +15,6 @@
     ]
   },
   "signature": "not yet implemented",
-  "version": "0.1.0"
+  "version": "1.0.0"
 }
 
