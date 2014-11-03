@@ -1,0 +1,20 @@
+{
+  "author": "wondible",
+  "build": "73939",
+  "category": ["in-game", "ui"],
+  "context": "client",
+  "date": "2014/10/19",
+  "description": "Custom personality types for skirmish.",
+  "display_name": "Ai Personalities",
+  "forum": null,
+  "identifier": "com.wondible.pa.ai_personalities",
+  "priority": 100,
+  "scenes": {
+    "new_game": [
+      "coui://ui/mods/ai_personalities/ai_personalities.js"
+    ]
+  },
+  "signature": "not yet implemented",
+  "version": "0.1.0"
+}
+
