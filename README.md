@@ -4,7 +4,7 @@ Adds several new choices to the lobby AI settings (vanilla: Normal-Absurd)  Sett
 
 ### Economic Variants
 
-- Land Rush - Sorry, personalities are pretty high-level and can't control bots vs. tanks.
+- Bot Rush
 - Turtle - Not a very good turtle, but it's really shy about attacking.
 - Brad Rush - Build lots of factories and run them *hard*, bro.
 - Wandering Hazard - Never build anything, except maybe some mex.
