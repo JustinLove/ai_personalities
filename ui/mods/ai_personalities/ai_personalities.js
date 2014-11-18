@@ -2,8 +2,8 @@
   var extensions = {
     'Bot Rush': {
       percent_vehicle: 0.00,
-      percent_bot: 0.65,
-      percent_air: 0.00,
+      percent_bot: 0.60,
+      percent_air: 0.05,
       percent_naval: 0.35,
       percent_orbital: 0.00,
       metal_drain_check: 0.3,
@@ -11,8 +11,21 @@
       metal_demand_check: 0.72,
       energy_demand_check: 0.4,
       neural_data_mod: 2.0,
-      adv_eco_mod: 10,
+      adv_eco_mod: 2,
       adv_eco_mod_alone: 0.85
+    },
+    'Advanced Rush': {
+      percent_vehicle: 0.3,
+      percent_bot: 0.45,
+      percent_air: 0.2,
+      percent_naval: 0.05,
+      percent_orbital: 0.00,
+      metal_drain_check: 0.3,
+      energy_drain_check: 0.3,
+      metal_demand_check: 0.72,
+      energy_demand_check: 0.4,
+      adv_eco_mod: 0.25,
+      adv_eco_mod_alone: 0.1
     },
     'Turtle': {
       percent_vehicle: 0.10,
@@ -21,12 +34,12 @@
       percent_naval: 0.25,
       percent_orbital: 0.25,
       metal_drain_check: 0.6,
-      energy_drain_check: 2.0,
+      energy_drain_check: 1.5,
       metal_demand_check: 0.72,
       energy_demand_check: 1.0,
       neural_data_mod: 0.0,
-      adv_eco_mod: 0.85,
-      adv_eco_mod_alone: 0.5
+      adv_eco_mod: 0.25,
+      adv_eco_mod_alone: 0.1
     },
     'Brad Rush': {
       percent_vehicle: 0.05,
@@ -111,6 +124,7 @@
       metal_demand_check: 0.75,
       energy_demand_check: 0.85
     },
+    /*
     'Low Metal Drain': {
       metal_drain_check: 0.01
     },
@@ -155,6 +169,7 @@
       energy_drain_check: 2.0,
       energy_demand_check: 2.0
     },
+    */
   }
 
   var baseline = model.aiPersonalities().Absurd || {
