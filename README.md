@@ -5,7 +5,7 @@ Adds several new choices to the lobby AI settings (vanilla: Normal-Absurd)  Sett
 ### Economic Variants
 
 - Bot Rush
-- Advanced Rush - Crossed with the bot rush eco to make the adv factory look more oafordable.  Also goes obital (sometimes at the same time), and then spends most of it's resources trying to build SXX.  Could probably do with more tuning.
+- Advanced Rush - Crossed with the bot rush eco to make the adv factory look more affordable.  Also goes orbital (sometimes at the same time), and then spends most of it's resources trying to build SXX.  Could probably do with more tuning.
 - Turtle - Not a very good turtle, but it's really shy about attacking.
 - Brad Rush - Build lots of factories and run them *hard*, bro.
 - Wandering Hazard - Never build anything, except maybe some mex.
