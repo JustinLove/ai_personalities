@@ -1,9 +1,9 @@
 {
   "author": "wondible",
-  "build": "75134-main",
+  "build": "75539",
   "category": ["ui", "ai"],
   "context": "client",
-  "date": "2014/11/17",
+  "date": "2014/11/26",
   "description": "Custom personality types for skirmish.",
   "display_name": "Ai Personalities",
   "forum": "https://forums.uberent.com/threads/rel-ai-personalities.65750/",

@@ -15,8 +15,8 @@
       adv_eco_mod_alone: 0.85
     },
     'Advanced Rush': {
-      percent_vehicle: 0.3,
-      percent_bot: 0.45,
+      percent_vehicle: 0.50,
+      percent_bot: 0.25,
       percent_air: 0.2,
       percent_naval: 0.05,
       percent_orbital: 0.00,
@@ -28,8 +28,8 @@
       adv_eco_mod_alone: 0.1
     },
     'Turtle': {
-      percent_vehicle: 0.10,
-      percent_bot: 0.15,
+      percent_vehicle: 0.20,
+      percent_bot: 0.05,
       percent_air: 0.25,
       percent_naval: 0.25,
       percent_orbital: 0.25,
@@ -61,8 +61,8 @@
       metal_drain_check: 0.12
     },
     'Land/Naval': {
-      percent_vehicle: 0.15,
-      percent_bot: 0.34,
+      percent_vehicle: 0.34,
+      percent_bot: 0.15,
       percent_air: 0.01,
       percent_naval: 0.49,
       percent_orbital: 0.01
@@ -173,8 +173,8 @@
   }
 
   var baseline = model.aiPersonalities().Absurd || {
-    percent_vehicle: 0.25,
-    percent_bot: 0.45,
+    percent_vehicle: 0.45,
+    percent_bot: 0.25,
     percent_air: 0.2,
     percent_naval: 0.05,
     percent_orbital: 0.05,
