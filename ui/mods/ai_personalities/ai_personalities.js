@@ -1,4 +1,4 @@
-(function() {
+;(function() {
   var extensions = {
     'Bot Rush': {
       percent_vehicle: 0.00,
@@ -172,7 +172,7 @@
     */
   }
 
-  var baseline = model.aiPersonalities.Absurd || {
+  var baseline = model.aiPersonalities().Absurd || {
     percent_vehicle: 0.45,
     percent_bot: 0.25,
     percent_air: 0.2,
@@ -209,7 +209,5 @@
     extensions[name].display_name = name
   })
 
-  _.extend(model.aiPersonalities, extensions)
-
-  model.aiPersonalityNames(_.keys(model.aiPersonalities));
+  model.aiPersonalities(_.extend(model.aiPersonalities(), extensions))
 })()

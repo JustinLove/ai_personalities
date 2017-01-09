@@ -1,3 +1,7 @@
+## 1.1.2
+
+- Bug fix for undiscovered change in 94243-pte; personalities made observable
+
 ## 1.1.1
 
 - Triage for format changes circa 86422
