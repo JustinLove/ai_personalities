@@ -1,4 +1,4 @@
-## 1.1.2
+## 1.2.0
 
 - Bug fix for undiscovered change in 94243-pte; personalities made observable
 - Add icon
