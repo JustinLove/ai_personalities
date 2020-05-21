@@ -1,4 +1,4 @@
-;(function() {
+; (function () {
   var extensions = {
     'Bot Rush': {
       percent_vehicle: 0.00,
@@ -179,9 +179,10 @@
     percent_naval: 0.05,
     percent_orbital: 0.05,
     personality_tags:
-    [
-      "PreventsWaste"
-    ],
+      [
+        "Vanilla",
+        "PreventsWaste"
+      ],
     metal_drain_check: 0.54,
     energy_drain_check: 0.65,
     metal_demand_check: 0.71,
@@ -203,8 +204,15 @@
     min_advanced_fabbers: 3,
     max_advanced_fabbers: 20
   }
-  Object.keys(extensions).forEach(function(name) {
+  baseline.personality_tags = [
+    "Vanilla",
+    "PreventsWaste"
+  ]
+
+
+  Object.keys(extensions).forEach(function (name) {
     extensions[name] = _.extend(JSON.parse(JSON.stringify(baseline)), extensions[name])
+    // extensions[name].personality_tags = ["Vanilla", "PreventsWaste"]
     extensions[name].name = name
     extensions[name].display_name = name
   })
