@@ -1,3 +1,9 @@
+## 1.3.0 (Dissonant)
+
+- Changed from client to server mod
+- Added small patch to allow compatibility with Quitch's AI Mod Compatibility Framework (ironic).
+- Changed description to reflect lack of active maintenance.
+
 ## 1.2.0
 
 - Bug fix for undiscovered change in 94243-pte; personalities made observable
