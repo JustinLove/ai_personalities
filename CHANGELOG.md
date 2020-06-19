@@ -1,3 +1,9 @@
+## 1.3.0
+
+- Add Vanilla tag for compatibiltiy with AI Mod Compatibility Framework
+- Switched to server mod so AI names will be available to others in multiplayer lobbies.
+- Thanks to Dissonant the nudge and prototype
+
 ## 1.2.0
 
 - Bug fix for undiscovered change in 94243-pte; personalities made observable

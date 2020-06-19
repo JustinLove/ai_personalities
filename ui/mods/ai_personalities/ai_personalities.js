@@ -207,6 +207,10 @@
     extensions[name] = _.extend(JSON.parse(JSON.stringify(baseline)), extensions[name])
     extensions[name].name = name
     extensions[name].display_name = name
+    extensions[name].personality_tags = _.union(
+      extensions[name].personality_tags || [],
+      ['Vanilla']
+    )
   })
 
   model.aiPersonalities(_.extend(model.aiPersonalities(), extensions))

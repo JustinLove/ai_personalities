@@ -28,17 +28,11 @@ The AI will often build one of each factory no matter how low you set the prefer
 
 ## Personality Development
 
-Trying out combinations can be pretty mesmerizing, but I really need to get on to other mods.  Comments and pull requests with new and improved personalities are very welcome.  I've really only tested on small random 2-player planets so far, often in 4-player FFA.
+Trying out combinations can be pretty mesmerizing, but I really need to get on to other mods. I've really only tested on small random 2-player planets so far, often in 4-player FFA.
 
-I highly recommend manually running your local server with --http and using the sim_faster call to accelerate the first few minutes.  Maybe more if you have a faster computer than I do ;^)
+You will likely want to change the sim speed to accelerate the first few minutes.  Maybe more if you have a faster computer than I do ;^)  See increase/decrease sim speed in the keyboard settings, defaults '=' and '-'.
 
-On unix-likes this is handy, and the windows equivalent should be easy:
-
-    #!/bin/bash
-    for i in {1..20}
-    do
-      curl http://localhost:8080/api/sim_faster
-    done
+[https://wiki.palobby.com/wiki/Planetary_Annihilation_AI_Implementation]
 
 ## Parameters
 
