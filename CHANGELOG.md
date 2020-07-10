@@ -1,3 +1,7 @@
+## 1.3.1
+
+- No longer adds Vanilla tag
+
 ## 1.3.0
 
 - Add Vanilla tag for compatibiltiy with AI Mod Compatibility Framework
